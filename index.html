@@ -1,107 +1,547 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sonal Kushwaha | Portfolio</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: #f9f9f9;
-            color: #222;
-        }
-        header {
-            background: #111827;
-            color: white;
-            padding: 2rem;
-            text-align: center;
-        }
-        nav a {
-            margin: 0 1rem;
-            color: #cbd5e1;
-            text-decoration: none;
-            font-weight: 500;
-        }
-        nav a:hover {
-            color: white;
-        }
-        .section {
-            max-width: 900px;
-            margin: auto;
-            padding: 2rem 1rem;
-        }
-        .projects {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 1.5rem;
-        }
-        .card {
-            background: white;
-            padding: 1.5rem;
-            border-radius: 12px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-        }
-        footer {
-            background: #111827;
-            color: #cbd5e1;
-            text-align: center;
-            padding: 1.5rem;
-            margin-top: 2rem;
-        }
-        .hero-title {
-            font-size: 2.5rem;
-            margin: 0.5rem 0 0;
-        }
-        .hero-subtitle {
-            font-size: 1.2rem;
-            color: #cbd5e1;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sonal Kushwaha | Software Engineer & Graduate Student</title>
+
+    <meta
+        name="description"
+        content="Sonal Kushwaha — Master's student at Carnegie Mellon University and former Software Engineer at Microsoft."
+    >
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header>
-        <h1 class="hero-title">Sonal Kushwaha</h1>
-        <p class="hero-subtitle">Software Engineer | AI & ML Enthusiast</p>
-        <nav>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
+
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">Sonal Kushwaha</a>
+
+            <nav>
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
     </header>
 
-    <section id="about" class="section">
-        <h2>About Me</h2>
-        <p>Hi! I'm Sonal Kushwaha, a Software Engineer passionate about building impactful products and advancing AI/ML technologies. Welcome to my portfolio!</p>
-    </section>
 
-    <section id="projects" class="section">
-        <h2>Projects</h2>
-        <div class="projects">
-            <div class="card">
-                <h3>Project 1</h3>
-                <p>Short description of your project goes here.</p>
-            </div>
-            <div class="card">
-                <h3>Project 2</h3>
-                <p>Short description of your project goes here.</p>
-            </div>
-            <div class="card">
-                <h3>Project 3</h3>
-                <p>Short description of your project goes here.</p>
-            </div>
-        </div>
-    </section>
+    <main>
 
-    <section id="contact" class="section">
-        <h2>Contact</h2>
-        <p>Email: sonal.kushwaha@example.com</p>
-        <p>GitHub: github.com/sonalkushwaha</p>
-        <p>LinkedIn: linkedin.com/in/sonalkushwaha</p>
-    </section>
+        <!-- Hero -->
+        <section id="home" class="hero">
+            <div class="hero-content">
 
+                <p class="eyebrow">CARNEGIE MELLON UNIVERSITY · MS IIS</p>
+
+                <h1>
+                    Hi, I'm <span>Sonal Kushwaha.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Graduate student at Carnegie Mellon University with 3 years
+                    of software engineering experience at Microsoft, interested
+                    in intelligent systems, AI agents, NLP, and building
+                    reliable software.
+                </p>
+
+                <div class="hero-links">
+                    <a href="#projects" class="button primary">
+                        View my work
+                    </a>
+
+                    <a href="#contact" class="button secondary">
+                        Get in touch
+                    </a>
+                </div>
+
+                <div class="social-links">
+                    <a
+                        href="https://www.linkedin.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        LinkedIn ↗
+                    </a>
+
+                    <a href="mailto:sonalkus@andrew.cmu.edu">
+                        Email ↗
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- About -->
+        <section id="about" class="section">
+            <div class="section-header">
+                <p class="section-number">01</p>
+                <h2>About</h2>
+            </div>
+
+            <div class="about-grid">
+
+                <div>
+                    <p class="large-text">
+                        I am a Master's student in
+                        <strong>Intelligent Information Systems</strong>
+                        at Carnegie Mellon University.
+                    </p>
+
+                    <p>
+                        Before starting graduate school, I spent three years
+                        at Microsoft working as a full-stack software engineer
+                        on large-scale enterprise systems.
+                    </p>
+
+                    <p>
+                        My work has spanned full-stack development, distributed
+                        services, cloud infrastructure, AI-powered automation,
+                        and developer productivity. I enjoy taking complex
+                        problems and turning them into simple, reliable
+                        systems.
+                    </p>
+
+                    <p>
+                        At CMU, I am particularly interested in
+                        <strong>machine learning, natural language processing,
+                        question answering, multimodal AI, and intelligent
+                        agents.</strong>
+                    </p>
+                </div>
+
+                <div class="about-details">
+
+                    <div class="detail">
+                        <span>Currently</span>
+                        <strong>MS Intelligent Information Systems</strong>
+                        <small>Carnegie Mellon University</small>
+                    </div>
+
+                    <div class="detail">
+                        <span>Previously</span>
+                        <strong>Software Engineer</strong>
+                        <small>Microsoft · 2023–2026</small>
+                    </div>
+
+                    <div class="detail">
+                        <span>Based in</span>
+                        <strong>Pittsburgh, PA</strong>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Education -->
+        <section id="education" class="section section-light">
+
+            <div class="section-header">
+                <p class="section-number">02</p>
+                <h2>Education</h2>
+            </div>
+
+            <div class="education-item">
+
+                <div class="education-date">
+                    Aug 2026 — Dec 2027
+                </div>
+
+                <div>
+                    <h3>Carnegie Mellon University</h3>
+
+                    <p class="degree">
+                        Master of Science in Intelligent Information Systems
+                    </p>
+
+                    <p>
+                        Pittsburgh, USA
+                    </p>
+
+                    <p class="coursework">
+                        <strong>Relevant coursework:</strong>
+                        Machine Learning · Advanced Natural Language Processing
+                        · Introduction to Question Answering
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="education-item">
+
+                <div class="education-date">
+                    Aug 2019 — Jul 2023
+                </div>
+
+                <div>
+                    <h3>
+                        Maharaja Surajmal Institute of Technology
+                    </h3>
+
+                    <p class="degree">
+                        Bachelor of Technology in Information Technology
+                    </p>
+
+                    <p>
+                        Delhi, India · CGPA: 9.25 / 10
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Experience -->
+        <section id="experience" class="section">
+
+            <div class="section-header">
+                <p class="section-number">03</p>
+                <h2>Experience</h2>
+            </div>
+
+
+            <article class="experience-item">
+
+                <div class="experience-top">
+                    <div>
+                        <h3>Microsoft</h3>
+                        <p class="role">Software Engineer · L60</p>
+                    </div>
+
+                    <span class="date">
+                        Aug 2024 — Aug 2026
+                    </span>
+                </div>
+
+                <ul>
+                    <li>
+                        Worked on the Modern Commerce team, owning
+                        <strong>8 production releases</strong> using GraphQL,
+                        C# and .NET to accelerate the migration of
+                        <strong>5,000+ enterprise customers.</strong>
+                    </li>
+
+                    <li>
+                        Led a team of 3 engineers across parallel feature
+                        releases, contributing to a
+                        <strong>14% increase in platform revenue.</strong>
+                    </li>
+
+                    <li>
+                        Improved unit and integration testing practices,
+                        driving test coverage to <strong>90%+</strong>
+                        and resulting in near-zero user escalations post-release.
+                    </li>
+
+                    <li>
+                        Redesigned an AI assistant to personalize workflows
+                        and automate deal creation, reducing deal turnaround
+                        time from <strong>8 days to 20 minutes.</strong>
+                    </li>
+
+                    <li>
+                        Served as a primary on-call engineer, leading incident
+                        response and root-cause investigations for critical
+                        production issues.
+                    </li>
+                </ul>
+
+            </article>
+
+
+            <article class="experience-item">
+
+                <div class="experience-top">
+                    <div>
+                        <h3>Microsoft</h3>
+                        <p class="role">Software Engineer · L59</p>
+                    </div>
+
+                    <span class="date">
+                        Jul 2023 — Aug 2024
+                    </span>
+                </div>
+
+                <ul>
+                    <li>
+                        Built an AI-powered automation tool for bulk catalog
+                        management, enabling batching of
+                        <strong>1,000+ products</strong> and saving
+                        <strong>72 hours per deal request.</strong>
+                    </li>
+
+                    <li>
+                        Migrated legacy services to scalable C# services,
+                        achieving <strong>99.98% reliability</strong>
+                        across 6 microservices.
+                    </li>
+
+                    <li>
+                        Strengthened platform security by introducing a
+                        centralized API Gateway and zero-trust access controls.
+                    </li>
+                </ul>
+
+            </article>
+
+
+            <article class="experience-item">
+
+                <div class="experience-top">
+                    <div>
+                        <h3>Microsoft</h3>
+                        <p class="role">Software Engineer Intern</p>
+                    </div>
+
+                    <span class="date">
+                        May 2022 — Jun 2022
+                    </span>
+                </div>
+
+                <ul>
+                    <li>
+                        Built scalable React components with advanced form
+                        validation and Redux-based state management.
+                    </li>
+
+                    <li>
+                        Developed secure C#/.NET backend APIs integrated with
+                        Azure API Management and Cosmos DB.
+                    </li>
+                </ul>
+
+            </article>
+
+        </section>
+
+
+        <!-- Projects -->
+        <section id="projects" class="section section-light">
+
+            <div class="section-header">
+                <p class="section-number">04</p>
+                <h2>Selected Projects</h2>
+            </div>
+
+
+            <div class="projects-grid">
+
+                <article class="project-card">
+
+                    <div class="project-number">01</div>
+
+                    <h3>
+                        Text Summarization using Transformers
+                    </h3>
+
+                    <p class="project-stack">
+                        Python · NumPy · Pandas · SentencePiece
+                    </p>
+
+                    <p>
+                        Designed a hybrid text-summarization framework
+                        combining extractive BERTSum and abstractive
+                        Longformer2Roberta models to improve semantic coverage
+                        and summary coherence.
+                    </p>
+
+                    <div class="project-result">
+                        <strong>ROUGE-1: 0.50</strong>
+                        <span>vs. TextRank: 0.36</span>
+                    </div>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-number">02</div>
+
+                    <h3>
+                        Bridge — Video Conferencing Portal
+                    </h3>
+
+                    <p class="project-stack">
+                        ReactJS · WebRTC · Socket.IO
+                    </p>
+
+                    <p>
+                        Developed a real-time video communication platform
+                        supporting 1-on-1 calls and chats, group calls,
+                        and broadcasting.
+                    </p>
+
+                    <div class="project-result">
+                        <strong>99.9% message delivery</strong>
+                        <span>Sub-1.5s call connection</span>
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- Skills -->
+        <section id="skills" class="section">
+
+            <div class="section-header">
+                <p class="section-number">05</p>
+                <h2>Technical Skills</h2>
+            </div>
+
+
+            <div class="skills-grid">
+
+                <div class="skill-group">
+                    <h3>Programming</h3>
+                    <p>
+                        C++ · JavaScript · TypeScript · C# · Python · Java
+                    </p>
+                </div>
+
+                <div class="skill-group">
+                    <h3>Full-Stack</h3>
+                    <p>
+                        React.js · Flutter · Redux · REST · Node.js ·
+                        Express.js · GraphQL · .NET · Firebase · WebSockets · OAuth
+                    </p>
+                </div>
+
+                <div class="skill-group">
+                    <h3>AI & ML</h3>
+                    <p>
+                        AI Agents · NumPy · PyTorch · TensorFlow ·
+                        Transformers · GitHub Copilot · Claude Code
+                    </p>
+                </div>
+
+                <div class="skill-group">
+                    <h3>Datastores</h3>
+                    <p>
+                        MySQL · PostgreSQL · MongoDB · Redis · Kusto (KQL)
+                    </p>
+                </div>
+
+                <div class="skill-group">
+                    <h3>Cloud & Infrastructure</h3>
+                    <p>
+                        Azure · AWS · Docker · Kubernetes · CI/CD Pipelines
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Achievements -->
+        <section class="section section-light">
+
+            <div class="section-header">
+                <p class="section-number">06</p>
+                <h2>Recognition</h2>
+            </div>
+
+            <div class="recognition-grid">
+
+                <div class="recognition-card">
+                    <span class="recognition-icon">★</span>
+
+                    <h3>
+                        Microsoft Excellence Award
+                    </h3>
+
+                    <p>
+                        Recognized for driving end-to-end delivery of
+                        high-impact features that improved system performance.
+                    </p>
+                </div>
+
+
+                <div class="recognition-card">
+                    <span class="recognition-icon">◆</span>
+
+                    <h3>
+                        Google Women Techmakers Engineering Fellow
+                    </h3>
+
+                    <p>
+                        Selected among the top 126 engineers nationwide,
+                        recognized for programming skills and winning
+                        3 hackathons during undergraduate studies.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Contact -->
+        <section id="contact" class="contact-section">
+
+            <p class="section-number">07</p>
+
+            <h2>
+                Let's connect.
+            </h2>
+
+            <p>
+                I'm always interested in conversations around intelligent
+                systems, AI, software engineering, and research.
+            </p>
+
+            <a
+                href="mailto:sonalkus@andrew.cmu.edu"
+                class="contact-email"
+            >
+                sonalkus@andrew.cmu.edu
+            </a>
+
+            <div class="contact-links">
+
+                <a
+                    href="https://www.linkedin.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    LinkedIn ↗
+                </a>
+
+                <a href="mailto:sonalkus@andrew.cmu.edu">
+                    Email ↗
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2025 Sonal Kushwaha. All rights reserved.</p>
+        <p>
+            © 2026 Sonal Kushwaha
+        </p>
+
+        <p>
+            Built with HTML & CSS.
+        </p>
     </footer>
+
 </body>
 </html>
